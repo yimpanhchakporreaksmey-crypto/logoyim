@@ -1,0 +1,44 @@
+/* Page background */
+body {
+  background-color: #ffffff; /* white */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar background */
+.navbar {
+  background-color: #f5f5f5 !important; /* light grey */
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 24px; /* adjust spacing here */
+}
+
+/* Optional: style the text */
+.logo-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.logo-img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+
+.section-title {
+  margin-bottom: 8px;
+}
+
+.section-line {
+  margin: 0;
+  padding-left: 2px; /* subtle alignment tweak */
+  color: #666;
+  font-size: 1rem;
+}
